@@ -1,0 +1,129 @@
+.skills-ul li {
+  font-weight: bolder;
+  margin: 30px 10px;
+  position: relative;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.skills-ul li::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: white;
+  border-radius: 1000px;
+}
+.skills-ul li::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0%;
+  height: 15px;
+  background-color: gray;
+  border-radius: 1000px;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: infinite; */
+}
+.skills-ul li.html::after {
+  animation-name: html;
+}
+.skills-ul li.css::after {
+  animation-name: css;
+}
+.skills-ul li.bootstrap::after {
+  animation-name: bootstrap;
+}
+.skills-ul li.tailwind::after {
+  animation-name: tailwind;
+}
+.skills-ul li.javascript::after {
+  animation-name: javascript;
+}
+.skills-ul li.react::after {
+  animation-name: react;
+}
+.skills-ul li.react-router::after {
+  animation-name: react-router;
+}
+.skills-ul li.react-bootstrap::after {
+  animation-name: react-bootstrap;
+}
+.skills-ul li.node::after {
+  animation-name: node;
+}
+.skills-ul li.express::after {
+  animation-name: express;
+}
+.skills-ul li.mongodb::after {
+  animation-name: mongodb;
+}
+.skills-ul li.firebase::after {
+  animation-name: mongodb;
+}
+
+@keyframes html {
+  to {
+    width: 95%;
+  }
+}
+@keyframes css {
+  to {
+    width: 93%;
+  }
+}
+@keyframes bootstrap {
+  to {
+    width: 92%;
+  }
+}
+@keyframes tailwind {
+  to {
+    width: 93%;
+  }
+}
+@keyframes javascript {
+  to {
+    width: 85%;
+  }
+}
+@keyframes react {
+  to {
+    width: 84%;
+  }
+}
+@keyframes react-router {
+  to {
+    width: 80%;
+  }
+}
+@keyframes react-bootstrap {
+  to {
+    width: 70%;
+  }
+}
+@keyframes node {
+  to {
+    width: 81%;
+  }
+}
+@keyframes express {
+  to {
+    width: 80%;
+  }
+}
+@keyframes mongodb {
+  to {
+    width: 90%;
+  }
+}
+@keyframes firebase {
+  to {
+    width: 90%;
+  }
+}

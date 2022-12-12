@@ -1,0 +1,6 @@
+.projectSingleImage {
+  height: 500px;
+}
+.projectSingleImage:hover {
+  height: 100%;
+}
