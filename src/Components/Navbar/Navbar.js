@@ -7,6 +7,7 @@ const Navbar = () => {
       <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 ">
         <a href="#projects">Projects</a>
       </li>
+
       <li className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 ">
         <a href="#skills">Skills</a>
         {/* <Link to="/about">Skills</Link> */}

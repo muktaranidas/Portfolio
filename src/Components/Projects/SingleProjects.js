@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SingleProject.css";
 
 const SingleProjects = ({ project }) => {
-  const { title, description, live, image } = project;
+  const { title, description, image, _id } = project;
   return (
     <div className="card w-96 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-xl">
       <figure className="projectSingleImage">
@@ -16,9 +17,11 @@ const SingleProjects = ({ project }) => {
             : description}
         </p>
         <div className="card-actions justify-end">
-          <button className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-5">
-            Explore More
-          </button>
+          <Link to={`/projects/${_id}`}>
+            <button className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-5">
+              Explore More
+            </button>
+          </Link>
         </div>
       </div>
     </div>

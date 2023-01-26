@@ -4,7 +4,9 @@ import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
+import ProjectDetails from "../Projects/ProjectDetails";
 import Projects from "../Projects/Projects";
+import SingleProjects from "../Projects/SingleProjects";
 import Skills from "../Skills/Skills";
 
 export const router = createBrowserRouter([
@@ -19,6 +21,16 @@ export const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects></Projects>,
+      },
+      {
+        path: "/projects",
+        element: <SingleProjects></SingleProjects>,
+      },
+      {
+        path: "/projects/:id",
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/projects/${params.id}`),
+        element: <ProjectDetails></ProjectDetails>,
       },
       {
         path: "/skills",

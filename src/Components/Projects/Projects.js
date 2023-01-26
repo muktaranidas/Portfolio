@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SingleProjects from "./SingleProjects";
 import whichBook from "../../assets/projects/whichBook.png";
-import kitchen from "../../assets/projects/mukta'sKitchen.png";
+import muktasKitchen from "../../assets/projects/mukta'sKitchen.png";
 import heroQuiz from "../../assets/projects/heroQuiz.png";
 
 const Projects = () => {
@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "This project is about give review on food. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system.",
       live: "https://my-kitchen-8b2f9.web.app/",
-      image: kitchen,
+      image: muktasKitchen,
     },
     {
       id: "3",
@@ -31,6 +31,13 @@ const Projects = () => {
       image: heroQuiz,
     },
   ];
+  // const [projects, setProjects] = useState([]);
+
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/projects")
+  //     .then((res) => res.json())
+  //     .then((data) => setProjects(data));
+  // }, []);
 
   return (
     <div className="grid grid-cols-1 " id="projects">
@@ -41,7 +48,7 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-3 gap-4 ">
         {projects.map((project) => (
-          <SingleProjects key={project.id} project={project}></SingleProjects>
+          <SingleProjects key={project._id} project={project}></SingleProjects>
         ))}
       </div>
     </div>
