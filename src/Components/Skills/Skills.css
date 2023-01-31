@@ -54,6 +54,15 @@
 .skills-ul li.react-bootstrap::after {
   animation-name: react-bootstrap;
 }
+.skills-ul li.react-bootstrap::after {
+  animation-name: react-bootstrap;
+}
+.skills-ul li.jquery::after {
+  animation-name: jquery;
+}
+.skills-ul li.redux::after {
+  animation-name: redux;
+}
 .skills-ul li.node::after {
   animation-name: node;
 }
@@ -105,6 +114,16 @@
 @keyframes react-bootstrap {
   to {
     width: 70%;
+  }
+}
+@keyframes jquery {
+  to {
+    width: 80%;
+  }
+}
+@keyframes redux {
+  to {
+    width: 60%;
   }
 }
 @keyframes node {
