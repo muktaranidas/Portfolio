@@ -5,15 +5,8 @@ const Blogs = () => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
   return (
-    <div
-      onClick={() =>
-        openInNewTab(
-          "https://drive.google.com/drive/folders/1hxGW7C6pznDhMNg87w0UsHz0a5dRcSUQ?usp=share_link"
-        )
-      }
-      id="blog"
-    >
-      <h2 className="text-white text-5xl text-center p-32 font-bold">
+    <div>
+      <h2 className="text-white text-5xl h-[900px]  text-center p-32 font-bold">
         Coming Soon....
       </h2>
     </div>

@@ -49,7 +49,7 @@ const Projects = () => {
           My Project
         </h2>
       </div>
-      <div className="grid grid-cols-3 gap-4 ">
+      <div className="grid grid-cols-3 gap-4 mx-24 ">
         {projects.map((project) => (
           <SingleProjects key={project.id} project={project}></SingleProjects>
         ))}
