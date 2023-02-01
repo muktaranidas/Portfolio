@@ -3,7 +3,7 @@ import contact from "../../assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <section className="py-6 bg-black text-gray-50">
+    <section className="py-6  my-16  text-gray-50">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className=" mt-16 md:py-0 md:px-6">
           <h1 className="text-4xl font-bold">Get in touch</h1>

@@ -28,12 +28,12 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="my-32" id="skills">
+    <div className="my-32 text-white" id="skills">
       <h2 className="text-6xl font-bold mt-10 animate-bounce text-center ">
         My Skills
       </h2>
 
-      <div className="pr-4">
+      <div className="pr-4 ">
         <div className="grid grid-cols-2 gap-32  mx-24  skills-ul font-bold text-white">
           <ul>
             <li className="html my-6  text-white">HTML5</li>

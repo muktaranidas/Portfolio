@@ -6,7 +6,7 @@ const Blogs = () => {
   };
   return (
     <div>
-      <h2 className="text-white text-5xl h-[900px]  text-center p-32 font-bold">
+      <h2 className="text-white text-5xl my-32   text-center p-44 font-bold">
         Coming Soon....
       </h2>
     </div>

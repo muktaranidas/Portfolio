@@ -45,11 +45,11 @@ const Projects = () => {
   return (
     <div className="grid grid-cols-1 " id="projects">
       <div>
-        <h2 className="text-center mb-32 text-6xl font-bold animate-bounce ">
+        <h2 className="text-center mb-32 text-6xl text-white font-bold animate-bounce ">
           My Project
         </h2>
       </div>
-      <div className="grid grid-cols-3 gap-4 mx-24 ">
+      <div className="grid grid-cols-3 gap-4 mx-24 mb-12 ">
         {projects.map((project) => (
           <SingleProjects key={project.id} project={project}></SingleProjects>
         ))}

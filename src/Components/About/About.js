@@ -6,7 +6,7 @@ import mukta from "../../assets/jacket.jpg";
 
 const About = () => {
   return (
-    <div className="mx-24">
+    <div className="mx-24 text-white">
       <h2
         className="text-6xl font-bold mt-12 animate-bounce text-center "
         id="about"

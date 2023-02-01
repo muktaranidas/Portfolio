@@ -34,7 +34,7 @@ const SingleProjects = ({ project }) => {
   ];
   const { title, description, image, id, link } = project;
   return (
-    <div className="card w-96 bg-slate-600 transition  ease-in-out w-[300px] delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-xl">
+    <div className="card w-96 bg-slate-600 transition text-white  ease-in-out w-[300px] delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-xl">
       <figure className="projectSingleImage">
         <img src={image} alt="" className="w-[300px] h-[300px]" />
       </figure>
