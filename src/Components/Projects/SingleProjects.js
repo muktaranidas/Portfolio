@@ -1,9 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./SingleProject.css";
+import whichBook from "../../assets/projects/whichBook.png";
+import muktasKitchen from "../../assets/projects/mukta'sKitchen.png";
+import heroQuiz from "../../assets/projects/heroQuiz.png";
 
 const SingleProjects = ({ project }) => {
-  const { title, description, image, _id } = project;
+  const projects = [
+    {
+      id: 1,
+      title: "Which Book",
+      description:
+        "Different login system Admin, Buyer, Seller and individual dashboard. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system. Client side host in firebase and server side host",
+      live: "https://which-book.web.app/",
+      image: whichBook,
+    },
+    {
+      id: 2,
+      title: "Mukta's Kitchen",
+      description:
+        "This project is about give review on food. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system.",
+      live: "https://my-kitchen-8b2f9.web.app/",
+      image: muktasKitchen,
+    },
+    {
+      id: 3,
+      title: "Hero Quiz",
+      description:
+        "This project is about develop quiz website with React Router.	Hero Quiz is my frontend website",
+      live: "https://relaxed-capybara-5ec20c.netlify.app/",
+      image: heroQuiz,
+    },
+  ];
+  const { title, description, image, id } = project;
   return (
     <div className="card w-96 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-xl">
       <figure className="projectSingleImage">
@@ -17,7 +46,7 @@ const SingleProjects = ({ project }) => {
             : description}
         </p>
         <div className="card-actions justify-end">
-          <Link to={`/projects/${_id}`}>
+          <Link to={`/projects/${id}`}>
             <button className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-5">
               Explore More
             </button>
