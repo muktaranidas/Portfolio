@@ -68,7 +68,7 @@ const Banner = () => {
                 Welcome to my Portfolio
               </button>
               <h1 className="text-6xl font-bold">
-                {`Hi! I'm Mukta`}{" "}
+                {`Hi   I'm Mukta`}{" "}
                 <span
                   className="txt-rotate text-6xl font-bold"
                   dataPeriod="1000"
@@ -77,7 +77,7 @@ const Banner = () => {
                   <span className="wrap">{text}</span>
                 </span>
               </h1>
-              <p className="my-6">
+              <p className="my-6 ">
                 I am a Web Developer. I can develop systems/solutions for
                 enterprises and organizations so that they can easily maintain
                 their organization. I have learned HTML, CSS, JavaScript,

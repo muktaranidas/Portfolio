@@ -13,6 +13,7 @@ const Projects = () => {
         "Different login system Admin, Buyer, Seller and individual dashboard. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system. Client side host in firebase and server side host",
       live: "https://which-book.web.app/",
       image: whichBook,
+      link: "/projects/whichbook",
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const Projects = () => {
         "This project is about give review on food. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system.",
       live: "https://my-kitchen-8b2f9.web.app/",
       image: muktasKitchen,
+      link: "/projects/muktaskitchen",
     },
     {
       id: 3,
@@ -29,6 +31,7 @@ const Projects = () => {
         "This project is about develop quiz website with React Router.	Hero Quiz is my frontend website",
       live: "https://relaxed-capybara-5ec20c.netlify.app/",
       image: heroQuiz,
+      link: "/projects/heroquiz",
     },
   ];
   // const [projects, setProjects] = useState([]);

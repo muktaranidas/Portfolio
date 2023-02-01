@@ -4,9 +4,11 @@ import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
-import ProjectDetails from "../Projects/ProjectDetails";
+import HeroQuiz from "../Projects/HeroQuiz";
+import MuktasKitchen from "../Projects/MuktasKitchen";
 import Projects from "../Projects/Projects";
 import SingleProjects from "../Projects/SingleProjects";
+import WhichBook from "../Projects/WhichBook";
 import Skills from "../Skills/Skills";
 
 export const router = createBrowserRouter([
@@ -21,6 +23,22 @@ export const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects></Projects>,
+      },
+      {
+        path: "/blog",
+        element: <Blogs></Blogs>,
+      },
+      {
+        path: "/projects/whichbook",
+        element: <WhichBook></WhichBook>,
+      },
+      {
+        path: "/projects/muktaskitchen",
+        element: <MuktasKitchen></MuktasKitchen>,
+      },
+      {
+        path: "/projects/heroquiz",
+        element: <HeroQuiz></HeroQuiz>,
       },
       {
         path: "/projects",
@@ -41,15 +59,6 @@ export const router = createBrowserRouter([
         element: <Contact></Contact>,
       },
     ],
-  },
-
-  {
-    path: "/blog",
-    element: <Blogs></Blogs>,
-  },
-  {
-    path: "/projects/:id",
-    element: <ProjectDetails></ProjectDetails>,
   },
 ]);
 export default router;
