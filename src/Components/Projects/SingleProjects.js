@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./SingleProject.css";
-import whichBook from "../../assets/projects/whichBook.png";
-import muktasKitchen from "../../assets/projects/mukta'sKitchen.png";
-import heroQuiz from "../../assets/projects/heroQuiz.png";
+import whichBook from "../../assets/projects/homeWhichBook.png";
+// import muktasKitchen from "../../assets/projects/mukta'sKitchen.png";
+// import heroQuiz from "../../assets/projects/heroQuiz.png";
 
 const SingleProjects = ({ project }) => {
   const projects = [
@@ -21,7 +21,7 @@ const SingleProjects = ({ project }) => {
       description:
         "This project is about give review on food. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system.",
       live: "https://my-kitchen-8b2f9.web.app/",
-      image: muktasKitchen,
+      // image: muktasKitchen,
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const SingleProjects = ({ project }) => {
       description:
         "This project is about develop quiz website with React Router.	Hero Quiz is my frontend website",
       live: "https://relaxed-capybara-5ec20c.netlify.app/",
-      image: heroQuiz,
+      // image: heroQuiz,
     },
   ];
   const { title, description, image, id, link } = project;
