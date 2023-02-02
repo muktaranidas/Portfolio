@@ -20,7 +20,7 @@ const WhichBook = () => {
               WhichBook Details
             </h2>
           </div>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-3 gap-1">
             <div className="max-w-lg p-4 shadow-md bg-black text-white">
               <div className="space-y-4">
                 <div className="space-y-2">
@@ -39,8 +39,42 @@ const WhichBook = () => {
                 </div>
               </div>
             </div>
-            <img src={buyer} alt="" className="h-[400px]" />
-            <img src={seller} alt="" className="h-[400px]" />
+            <div className="max-w-lg p-4 shadow-md bg-black text-white">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <img
+                    src={seller}
+                    alt=""
+                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <a rel="noopener noreferrer" href="#" className="block">
+                    <h3 className="text-xl font-semibold dark:text-violet-400">
+                      Facere ipsa nulla corrupti praesentium pariatur architecto
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="max-w-lg p-4 shadow-md bg-black text-white">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <img
+                    src={buyer}
+                    alt=""
+                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <a rel="noopener noreferrer" href="#" className="block">
+                    <h3 className="text-xl font-semibold dark:text-violet-400">
+                      Facere ipsa nulla corrupti praesentium pariatur architecto
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
