@@ -10,74 +10,6 @@ const WhichBook = () => {
   };
   return (
     <div>
-      <section className="py-20 text-black bg-gray-100 ">
-        <div className="container  px-4 mx-auto">
-          <div className="max-w-2xl mx-auto mb-16 text-center">
-            {/* <span className="font-bold tracking-wider uppercase text-violet-400">
-            Project Details
-          </span> */}
-            <h2 className="text-4xl font-bold lg:text-5xl">
-              WhichBook Details
-            </h2>
-          </div>
-          <div className="grid grid-cols-3 gap-1">
-            <div className="max-w-lg p-4 shadow-md bg-black text-white">
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <img
-                    src={admin}
-                    alt=""
-                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <a rel="noopener noreferrer" href="#" className="block">
-                    <h3 className="text-xl font-semibold dark:text-violet-400">
-                      Facere ipsa nulla corrupti praesentium pariatur architecto
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="max-w-lg p-4 shadow-md bg-black text-white">
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <img
-                    src={seller}
-                    alt=""
-                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <a rel="noopener noreferrer" href="#" className="block">
-                    <h3 className="text-xl font-semibold dark:text-violet-400">
-                      Facere ipsa nulla corrupti praesentium pariatur architecto
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="max-w-lg p-4 shadow-md bg-black text-white">
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <img
-                    src={buyer}
-                    alt=""
-                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <a rel="noopener noreferrer" href="#" className="block">
-                    <h3 className="text-xl font-semibold dark:text-violet-400">
-                      Facere ipsa nulla corrupti praesentium pariatur architecto
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="bg-gray-800  text-gray-100">
         <div className="container flex flex-col-reverse mx-auto lg:flex-row">
           <div className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 dark:bg-violet-400 dark:text-gray-900">
@@ -198,6 +130,74 @@ const WhichBook = () => {
                 alt=""
                 className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96"
               />
+            </div>
+          </div>
+        </div>
+      </section>{" "}
+      <section className="py-20 text-black bg-gray-100 ">
+        <div className="container  px-4 mx-auto">
+          <div className="max-w-2xl mx-auto mb-16 text-center">
+            {/* <span className="font-bold tracking-wider uppercase text-violet-400">
+            Project Details
+          </span> */}
+            <h2 className="text-4xl font-bold lg:text-5xl">
+              WhichBook Details
+            </h2>
+          </div>
+          <div className="grid grid-cols-3 gap-1">
+            <div className="max-w-lg p-4 shadow-md bg-black text-white">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <img
+                    src={admin}
+                    alt=""
+                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <a rel="noopener noreferrer" href="#" className="block">
+                    <h3 className="text-xl font-semibold dark:text-violet-400">
+                      Admin Dashboard
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="max-w-lg p-4 shadow-md bg-black text-white">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <img
+                    src={seller}
+                    alt=""
+                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <a rel="noopener noreferrer" href="#" className="block">
+                    <h3 className="text-xl font-semibold dark:text-violet-400">
+                      Seller Dashboard
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="max-w-lg p-4 shadow-md bg-black text-white">
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <img
+                    src={buyer}
+                    alt=""
+                    className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500"
+                  />
+                </div>
+                <div className="space-y-2">
+                  <a rel="noopener noreferrer" href="#" className="block">
+                    <h3 className="text-xl font-semibold dark:text-violet-400">
+                      Buyer Dashboard
+                    </h3>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

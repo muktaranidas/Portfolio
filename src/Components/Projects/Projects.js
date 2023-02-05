@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import SingleProjects from "./SingleProjects";
-import whichBook from "../../assets/projects/homeWhichBook.png";
-// import muktasKitchen from "../../assets/projects/mukta'sKitchen.png";
-// import heroQuiz from "../../assets/projects/heroQuiz.png";
+import whichBook from "../../assets/WhichBook.jpg";
+import muktasKitchen from "../../assets/img1.jpg";
+import heroQuiz from "../../assets/HeroQuiz.jpg";
 
 const Projects = () => {
   const projects = [
@@ -21,7 +21,7 @@ const Projects = () => {
       description:
         "This project is about give review on food. This project includes a React.js frontend and a back-end server in Node. A MongoDB database is used to store the data and uses Firebase for authentication and also JWT security system.",
       live: "https://my-kitchen-8b2f9.web.app/",
-      // image: muktasKitchen,
+      image: muktasKitchen,
       link: "/projects/muktaskitchen",
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
       description:
         "This project is about develop quiz website with React Router.	Hero Quiz is my frontend website",
       live: "https://relaxed-capybara-5ec20c.netlify.app/",
-      // image: heroQuiz,
+      image: heroQuiz,
       link: "/projects/heroquiz",
     },
   ];
