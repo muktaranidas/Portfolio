@@ -15,10 +15,10 @@ const Navbar = () => {
             class="inline-flex items-center"
           >
             <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-              Portfolio
+              Mukta Rani Das
             </span>
           </Link>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
+          <ul class="flex sm:mx-16 items-center hidden space-x-8 lg:flex">
             <Link to="/projects">
               <a
                 href="/"
@@ -49,17 +49,16 @@ const Navbar = () => {
                 About
               </a>
             </Link>
-            <li>
+            <Link to="/blog">
               <a
-                href="/blog"
+                href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Blog
               </a>
-            </li>
-
+            </Link>
             <Link to="/contact">
               <a
                 href="/"
@@ -106,7 +105,7 @@ const Navbar = () => {
                         class="inline-flex items-center"
                       >
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Portfolio
+                          Mukta Rani Das
                         </span>
                       </Link>
                     </div>
@@ -158,16 +157,6 @@ const Navbar = () => {
                           About
                         </a>
                       </Link>
-                      <Link to="/blog">
-                        <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          Blog
-                        </a>
-                      </Link>
                       <Link to="contact">
                         <a
                           href="/"
@@ -176,6 +165,16 @@ const Navbar = () => {
                           title="Sign up"
                         >
                           Contact
+                        </a>
+                      </Link>
+                      <Link to="/blog">
+                        <a
+                          href="/"
+                          aria-label="About us"
+                          title="About us"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Blog
                         </a>
                       </Link>
                     </ul>

@@ -58,17 +58,6 @@ const Skills = () => {
         </div>
       </div>
     </div>
-
-    // <div className="my-32" id="skills">
-    //   <h2 className="text-6xl font-bold mt-12 animate-bounce text-center my-12">
-    //     My Skill
-    //   </h2>
-    //   <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
-    //     {skills.map((skill) => (
-    //       <CardSkills key={skill.id} skill={skill}></CardSkills>
-    //     ))}
-    //   </div>
-    // </div>
   );
 };
 

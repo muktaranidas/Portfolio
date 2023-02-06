@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 mt-16  text-white">
+    <footer className="footer p-10 mt-16   text-white">
       <div>
         <img className="footer-img" src={logo} alt="" />
         <p>
@@ -13,7 +13,7 @@ const Footer = () => {
           B.Sc in Software Engineering
         </p>
       </div>
-      <div>
+      <div className="">
         <span className="footer-title ">Univercity</span>
         <a className="link link-hover">Daffodil</a>
         <a className="link link-hover">International</a>
